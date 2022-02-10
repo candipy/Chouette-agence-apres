@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format("woff2");
+  font-display: swap;
+}
 body {
   margin: 0;
   padding: 0;
@@ -91,7 +98,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -539,6 +546,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+  font-display: swap;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -741,6 +749,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .portfolio-row {
@@ -810,19 +819,19 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
