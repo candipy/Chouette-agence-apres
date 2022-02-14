@@ -84,7 +84,7 @@ a:hover {
 }
 
 .bg-t-edge {
-  background: top no-repeat;
+  background: top no-repeat black;
 }
 
 .bloc-bg-texture::before {
@@ -784,7 +784,7 @@ h4 {
 }
 
 .tc-white {
-  color: #ffffff !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
@@ -838,6 +838,11 @@ h4 {
   font-weight: 600;
   font-style: italic;
   font-size: 16px;
+  color: #333333;
+}
+
+.blockquote-footer {
+  color: rgb(87, 87, 87);
 }
 
 @media (max-width: 1024px) {
